@@ -1,0 +1,26 @@
+{
+    "name": "facebook_bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js /nodemon server.js "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "heroku": "^7.59.2",
+        "morgan": "^1.10.0",
+        "node-fetch": "^2.0.0",
+        "nodemon": "^2.0.15",
+        "request": "^2.88.2",
+        "save": "^2.4.0"
+    },
+    "engines": {
+        "node": "^16.13.0"
+    }
+}
